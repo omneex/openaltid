@@ -2,7 +2,7 @@
 The meta repo for descriptions and guides of use and installation of Open/Alt.ID
 
 # What does is it?
-### Open
+### Open Source
 #### This system is completely open source and there is no guess work about what is being done with the data takes. It is the opinion of the developers that security by obscurity is inherently flawed and that openness is the first step to trust. Both between admins and developers and admins to users.
 ### Verification
 #### OpenAltID leverages social media connections of a user's account, along with other data from the user's account, to which goes through an algorithm to generate a confidence score, all this really is a score card, more evidence of an established account, the higher the score. The actual score needed is configurable in the database and has many parameters to adjust it how you want it.
