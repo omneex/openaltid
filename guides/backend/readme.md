@@ -1,6 +1,6 @@
 # Backend
-### Repo: github.com/omneex/openaltid-backend
-### Docker Image: omneex/api-openaltid:main 
+### Repo: [github.com/omneex/openaltid-backend](github.com/omneex/openaltid-backend)
+### Docker Image: [omneex/api-openaltid:main](https://hub.docker.com/repository/docker/omneex/api-openaltid)
 
 #### Please have a host with Docker and NGINX set up already (default installations work just fine), I would also recommend having Portainer as well since that will make orchestration much easier.
 
