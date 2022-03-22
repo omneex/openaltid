@@ -1,5 +1,5 @@
 # Frontend website
-### Repo: [github.com/omneex/openaltid-frontend](github.com/omneex/openaltid-frontend)
+### Repo: [github.com/omneex/openaltid-frontend](https://github.com/omneex/openaltid-frontend)
 For more information about how to host a VueJS project I recommend reading through this guide: li.vuejs.org/guide/deployment.html
 
 ## General Recommendation
