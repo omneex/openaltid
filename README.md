@@ -25,13 +25,13 @@ It is recommended to use a hosting service for hosting MongoDB, it both simplifi
 ## Guide
 ### Step 1 - Set up frontend
 - Deploy the frontend to your URL, it is recommended to use Netlify for this as it simplifies the deployment.
-- See: guides/frontend.md for more details
+- See: [guides/frontend](https://github.com/omneex/openaltid/tree/main/guides/frontend) for more details
 ### Step 2 - Provision a MongoDB Database
 - If you are going to deploy your own database make sure to set up the database and allow connections from the host/s with the backend and bot.
 ### Step 3 - Set up docker images
 - The easiest way I recommend to deploy is to use Docker Compose with the `docker-compose.yml` below. With that all you need to do is `docker compose up` in the directory containing the file, or use Portainer Stacks.
 - At this time I do NOT recommend using watchtower, please wait for a new release before updating. 
-- See: guides/backend.md, guides/bot.md for more details about the set up and variables needed for these.
+- See: [guides/backend](https://github.com/omneex/openaltid/tree/main/guides/backend), [guides/bot](https://github.com/omneex/openaltid/tree/main/guides/bot) for more details about the set up and variables needed for these.
 
 ```docker-compose.yml
 # docker-compose.yml
