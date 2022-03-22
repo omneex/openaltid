@@ -14,7 +14,7 @@ The meta repo for descriptions and guides of use and installation of Open/Alt.ID
 ### ***NO***, but its generally good enough.
 
 ## Long Answer
-### No security system is perfect, while this is a best effort shot at detecting alternate accounts, if a user has enough patience and enough dedication they can get through it. However, this does make the process of getting an alt account in to a server much, much harder with as little input from moderation as possible. And at least on the major servers it is used on, there is little effect on user retention, 90%+ users will pass through without any additional input vs a simple "read the rules and run this command"-type user join flows. 
+### No security system is perfect, while this is a best effort shot at detecting alternate accounts, if a user has enough patience and enough dedication they can get through it. However, this does make the process of getting an alt account in to a server much, much harder with as little input from moderation as possible. And at least on the major servers it is used on, there is little effect on user retention, 90%+ users will pass through without any additional input vs a simple "read the rules and run this command"-type user join flows. On average for users that do require additional verification, around 70% will complete the process successfully. 
 
 # Installation
 ## Introduction
