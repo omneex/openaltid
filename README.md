@@ -4,11 +4,11 @@ The meta repo for descriptions and guides of use and installation of Open/Alt.ID
 # Installation
 ## Introduction
 ### There are 5 components that make up the system:
-- #### _A static frontend page, written in VueJS_ - This is the website that the users will use to login to and verify with.
-- #### _A backend API, written in Typescript with ExpressJS_ - This is the API that the frontend uses, it sort of acts as a mediator between the website and the bot. This is where the actual 'verification' occurs.
-- #### _A Discord bot, written in Rust with SerenityRS_ - This is the bot that both users and mod will use to initate verification. This bot is now entirely interactions based through slash commands.
-- #### _A Redis messaging system_ - This is the messaging system for passing information between the backend API and the Discord bot. The backend API also uses this as a session store ***IMPORTANT: This must be kept secure and is not to be accessable from outside of your host***
-- #### _A MongoDB database_ - This is where verification data is stored as well as where guild settings are stored.
+- #### _[A static frontend page, written in VueJS](https://github.com/omneex/openaltid/tree/main/guides/frontend)_ - This is the website that the users will use to login to and verify with.
+- #### _[A backend API, written in Typescript with ExpressJS](https://github.com/omneex/openaltid/tree/main/guides/backend)_ - This is the API that the frontend uses, it sort of acts as a mediator between the website and the bot. This is where the actual 'verification' occurs.
+- #### _[A Discord bot, written in Rust with SerenityRS](https://github.com/omneex/openaltid/tree/main/guides/bot)_ - This is the bot that both users and mod will use to initate verification. This bot is now entirely interactions based through slash commands.
+- #### _[A Redis messaging system](https://redis.io/topics/introduction)_ - This is the messaging system for passing information between the backend API and the Discord bot. The backend API also uses this as a session store ***IMPORTANT: This must be kept secure and is not to be accessable from outside of your host***
+- #### _[A MongoDB database](https://www.mongodb.com/what-is-mongodb)_ - This is where verification data is stored as well as where guild settings are stored.
 
 ### Use Docker
 Everything but the frontend website and MongoDB is designed to be run from Docker (though you could serve the frontend from there as well if you wanted to). The easiest way to do this is to use Docker Compose to deploy a stack containing all the parts needed. 
