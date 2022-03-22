@@ -1,6 +1,8 @@
 # Open/Alt.ID
 The meta repo for descriptions and guides of use and installation of Open/Alt.ID
 
+OpenAltID is a open source alt identification bot for Discord.
+
 # What does is it do?
 ### Open Source
 #### This system is completely open source and there is no guess work about what is being done with the data takes. It is the opinion of the developers that security by obscurity is inherently flawed and that openness is the first step to trust. Both between admins and developers and admins to users.
