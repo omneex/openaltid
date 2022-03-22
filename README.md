@@ -1,6 +1,21 @@
 # Open/Alt.ID
 The meta repo for descriptions and guides of use and installation of Open/Alt.ID
 
+# What does is it?
+### Open
+#### This system is completely open source and there is no guess work about what is being done with the data takes. It is the opinion of the developers that security by obscurity is inherently flawed and that openness is the first step to trust. Both between admins and developers and admins to users.
+### Verification
+#### OpenAltID leverages social media connections of a user's account, along with other data from the user's account, to which goes through an algorithm to generate a confidence score, all this really is a score card, more evidence of an established account, the higher the score. The actual score needed is configurable in the database and has many parameters to adjust it how you want it.
+### Identification
+#### Information about the users account, namely the social media accounts they connect are stored and will flag the user as an alt if those same social media accounts are seen again from another user.
+
+# Is it impervious? 
+## Short Answer 
+### ***NO***, but its generally good enough.
+
+## Long Answer
+### No security system is perfect, while this is a best effort shot at detecting alternate accounts, if a user has enough patience and enough dedication they can get through it. However, this does make the process of getting an alt account in to a server much, much harder with as little input from moderation as possible. And at least on the major servers it is used on, there is little effect on user retention, 90%+ users will pass through without any additional input vs a simple "read the rules and run this command"-type user join flows. 
+
 # Installation
 ## Introduction
 ### There are 5 components that make up the system:
